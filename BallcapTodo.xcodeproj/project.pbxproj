@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460B5AF72473CEDF006DC5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5AF62473CEDF006DC5D6 /* AppDelegate.swift */; };
+		460B5AF92473CEDF006DC5D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5AF82473CEDF006DC5D6 /* SceneDelegate.swift */; };
+		460B5AFB2473CEDF006DC5D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5AFA2473CEDF006DC5D6 /* ContentView.swift */; };
+		460B5AFD2473CEE2006DC5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460B5AFC2473CEE2006DC5D6 /* Assets.xcassets */; };
+		460B5B002473CEE2006DC5D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */; };
+		460B5B032473CEE2006DC5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460B5B012473CEE2006DC5D6 /* LaunchScreen.storyboard */; };
+		7B3DD2377482C9BA377519B8 /* Pods_BallcapTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D1214043F937F386EB6160 /* Pods_BallcapTodo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31E2B6CCB72689ADEB57955E /* Pods-BallcapTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallcapTodo.release.xcconfig"; path = "Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo.release.xcconfig"; sourceTree = "<group>"; };
+		460B5AF32473CEDF006DC5D6 /* BallcapTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallcapTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460B5AF62473CEDF006DC5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		460B5AF82473CEDF006DC5D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		460B5AFA2473CEDF006DC5D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		460B5AFC2473CEE2006DC5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		460B5B022473CEE2006DC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		460B5B042473CEE2006DC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6C2AF220F94E02D4D02C2D /* Pods-BallcapTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallcapTodo.debug.xcconfig"; path = "Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D1214043F937F386EB6160 /* Pods_BallcapTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallcapTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460B5AF02473CEDF006DC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3DD2377482C9BA377519B8 /* Pods_BallcapTodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0761E44BBB86D37EA5DB568D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F6C2AF220F94E02D4D02C2D /* Pods-BallcapTodo.debug.xcconfig */,
+				31E2B6CCB72689ADEB57955E /* Pods-BallcapTodo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		460B5AEA2473CEDF006DC5D6 = {
+			isa = PBXGroup;
+			children = (
+				460B5AF52473CEDF006DC5D6 /* BallcapTodo */,
+				460B5AF42473CEDF006DC5D6 /* Products */,
+				0761E44BBB86D37EA5DB568D /* Pods */,
+				5BDACCA6D645FA59F146B676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		460B5AF42473CEDF006DC5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460B5AF32473CEDF006DC5D6 /* BallcapTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460B5AF52473CEDF006DC5D6 /* BallcapTodo */ = {
+			isa = PBXGroup;
+			children = (
+				460B5AF62473CEDF006DC5D6 /* AppDelegate.swift */,
+				460B5AF82473CEDF006DC5D6 /* SceneDelegate.swift */,
+				460B5AFA2473CEDF006DC5D6 /* ContentView.swift */,
+				460B5AFC2473CEE2006DC5D6 /* Assets.xcassets */,
+				460B5B012473CEE2006DC5D6 /* LaunchScreen.storyboard */,
+				460B5B042473CEE2006DC5D6 /* Info.plist */,
+				460B5AFE2473CEE2006DC5D6 /* Preview Content */,
+			);
+			path = BallcapTodo;
+			sourceTree = "<group>";
+		};
+		460B5AFE2473CEE2006DC5D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5BDACCA6D645FA59F146B676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5D1214043F937F386EB6160 /* Pods_BallcapTodo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460B5AF22473CEDF006DC5D6 /* BallcapTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460B5B072473CEE2006DC5D6 /* Build configuration list for PBXNativeTarget "BallcapTodo" */;
+			buildPhases = (
+				E89FB130703CC7EFEDC42FF6 /* [CP] Check Pods Manifest.lock */,
+				460B5AEF2473CEDF006DC5D6 /* Sources */,
+				460B5AF02473CEDF006DC5D6 /* Frameworks */,
+				460B5AF12473CEDF006DC5D6 /* Resources */,
+				914F5A059E6055AEFEC6F6D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallcapTodo;
+			productName = BallcapTodo;
+			productReference = 460B5AF32473CEDF006DC5D6 /* BallcapTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460B5AEB2473CEDF006DC5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = touyou;
+				TargetAttributes = {
+					460B5AF22473CEDF006DC5D6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 460B5AEE2473CEDF006DC5D6 /* Build configuration list for PBXProject "BallcapTodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460B5AEA2473CEDF006DC5D6;
+			productRefGroup = 460B5AF42473CEDF006DC5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460B5AF22473CEDF006DC5D6 /* BallcapTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460B5AF12473CEDF006DC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460B5B032473CEE2006DC5D6 /* LaunchScreen.storyboard in Resources */,
+				460B5B002473CEE2006DC5D6 /* Preview Assets.xcassets in Resources */,
+				460B5AFD2473CEE2006DC5D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		914F5A059E6055AEFEC6F6D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89FB130703CC7EFEDC42FF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BallcapTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460B5AEF2473CEDF006DC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460B5AF72473CEDF006DC5D6 /* AppDelegate.swift in Sources */,
+				460B5AF92473CEDF006DC5D6 /* SceneDelegate.swift in Sources */,
+				460B5AFB2473CEDF006DC5D6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		460B5B012473CEE2006DC5D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460B5B022473CEE2006DC5D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460B5B052473CEE2006DC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460B5B062473CEE2006DC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460B5B082473CEE2006DC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6C2AF220F94E02D4D02C2D /* Pods-BallcapTodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BallcapTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BallcapTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.BallcapTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460B5B092473CEE2006DC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E2B6CCB72689ADEB57955E /* Pods-BallcapTodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BallcapTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = B4S4333JDW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BallcapTodo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.touyou.BallcapTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460B5AEE2473CEDF006DC5D6 /* Build configuration list for PBXProject "BallcapTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460B5B052473CEE2006DC5D6 /* Debug */,
+				460B5B062473CEE2006DC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460B5B072473CEE2006DC5D6 /* Build configuration list for PBXNativeTarget "BallcapTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460B5B082473CEE2006DC5D6 /* Debug */,
+				460B5B092473CEE2006DC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460B5AEB2473CEDF006DC5D6 /* Project object */;
+}
