@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		460B5AFD2473CEE2006DC5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460B5AFC2473CEE2006DC5D6 /* Assets.xcassets */; };
 		460B5B002473CEE2006DC5D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */; };
 		460B5B032473CEE2006DC5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460B5B012473CEE2006DC5D6 /* LaunchScreen.storyboard */; };
+		460B5B0E2473D2B2006DC5D6 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5B0D2473D2B2006DC5D6 /* Task.swift */; };
+		460B5B112473D400006DC5D6 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5B102473D400006DC5D6 /* TaskListView.swift */; };
+		460B5B132473D629006DC5D6 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460B5B122473D629006DC5D6 /* EditTaskView.swift */; };
+		460B5B182473DAB5006DC5D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 460B5B172473DAB5006DC5D6 /* GoogleService-Info.plist */; };
 		7B3DD2377482C9BA377519B8 /* Pods_BallcapTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D1214043F937F386EB6160 /* Pods_BallcapTodo.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +30,10 @@
 		460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		460B5B022473CEE2006DC5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460B5B042473CEE2006DC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460B5B0D2473D2B2006DC5D6 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		460B5B102473D400006DC5D6 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		460B5B122473D629006DC5D6 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		460B5B172473DAB5006DC5D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9F6C2AF220F94E02D4D02C2D /* Pods-BallcapTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BallcapTodo.debug.xcconfig"; path = "Target Support Files/Pods-BallcapTodo/Pods-BallcapTodo.debug.xcconfig"; sourceTree = "<group>"; };
 		E5D1214043F937F386EB6160 /* Pods_BallcapTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BallcapTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,7 +56,6 @@
 				9F6C2AF220F94E02D4D02C2D /* Pods-BallcapTodo.debug.xcconfig */,
 				31E2B6CCB72689ADEB57955E /* Pods-BallcapTodo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,12 +80,15 @@
 		460B5AF52473CEDF006DC5D6 /* BallcapTodo */ = {
 			isa = PBXGroup;
 			children = (
+				460B5B0F2473D3EF006DC5D6 /* Views */,
+				460B5B0A2473D27A006DC5D6 /* Models */,
 				460B5AF62473CEDF006DC5D6 /* AppDelegate.swift */,
 				460B5AF82473CEDF006DC5D6 /* SceneDelegate.swift */,
 				460B5AFA2473CEDF006DC5D6 /* ContentView.swift */,
 				460B5AFC2473CEE2006DC5D6 /* Assets.xcassets */,
 				460B5B012473CEE2006DC5D6 /* LaunchScreen.storyboard */,
 				460B5B042473CEE2006DC5D6 /* Info.plist */,
+				460B5B172473DAB5006DC5D6 /* GoogleService-Info.plist */,
 				460B5AFE2473CEE2006DC5D6 /* Preview Content */,
 			);
 			path = BallcapTodo;
@@ -90,6 +100,23 @@
 				460B5AFF2473CEE2006DC5D6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		460B5B0A2473D27A006DC5D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				460B5B0D2473D2B2006DC5D6 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		460B5B0F2473D3EF006DC5D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				460B5B102473D400006DC5D6 /* TaskListView.swift */,
+				460B5B122473D629006DC5D6 /* EditTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5BDACCA6D645FA59F146B676 /* Frameworks */ = {
@@ -161,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460B5B032473CEE2006DC5D6 /* LaunchScreen.storyboard in Resources */,
+				460B5B182473DAB5006DC5D6 /* GoogleService-Info.plist in Resources */,
 				460B5B002473CEE2006DC5D6 /* Preview Assets.xcassets in Resources */,
 				460B5AFD2473CEE2006DC5D6 /* Assets.xcassets in Resources */,
 			);
@@ -215,7 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460B5B0E2473D2B2006DC5D6 /* Task.swift in Sources */,
 				460B5AF72473CEDF006DC5D6 /* AppDelegate.swift in Sources */,
+				460B5B132473D629006DC5D6 /* EditTaskView.swift in Sources */,
+				460B5B112473D400006DC5D6 /* TaskListView.swift in Sources */,
 				460B5AF92473CEDF006DC5D6 /* SceneDelegate.swift in Sources */,
 				460B5AFB2473CEDF006DC5D6 /* ContentView.swift in Sources */,
 			);
