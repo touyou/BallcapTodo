@@ -10,11 +10,16 @@ import SwiftUI
 import Ballcap
 import FirebaseFirestore
 
+//extension Identifiable where Self: Hashable {
+//    typealias ID = Self
+//    var id: Self { self }
+//}
+
 struct TaskListView: View {
-
+    
     enum Presentation: View, Hashable, Identifiable {
-        typealias ID = Presentation
-
+        var id: Self { self }
+        
         case new
         case edit(task: Task)
         var body: some View {
@@ -23,19 +28,17 @@ struct TaskListView: View {
             case .edit(let task): return AnyView(EditTaskView(task: task))
             }
         }
-
-        var id: Presentation { self }
     }
-
+    
     @State var presentation: Presentation?
-
+    
     @State var tasks: [Task] = []
-
+    
     let dataSource: DataSource<Task> = Task
         .order(by: "updatedAt")
         .limit(to: 30)
         .dataSource()
-
+    
     var body: some View {
         NavigationView {
             List {
